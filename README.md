@@ -1,5 +1,4 @@
-<h1 align="center">Hi 👋 I'm Seif Kassab</h1>
-<h3 align="center">AI Engineer</h3>
+<h1 align="center">Seif Kassab</h1>
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?size=25&duration=3000&color=FF0000&center=true&vCenter=true&width=600&lines=AI+Engineer" />
 </p>
@@ -58,28 +57,6 @@ Pandas | NumPy | Spark
 
 ### 🚀 Deployment & DevOps
 Docker | Streamlit | Git
-
----
-
-## 🏗️ AI System Design Philosophy
-
-I focus on building production-ready AI systems including:
-
-- Data Collection & Preprocessing Pipelines  
-- Model Training & Optimization  
-- Evaluation & Performance Analysis  
-- Deployment & API Integration  
-- Monitoring & Guardrails  
-
----
-
-## 🔬 Research & Engineering Focus
-
-- Multi-view Attention Architectures for Medical Imaging  
-- Retrieval-Augmented Generation (RAG) Systems  
-- Agentic AI Workflows  
-- Vision Transformers & Advanced CV Models  
-- Scalable AI System Architecture  
 
 ---
 
