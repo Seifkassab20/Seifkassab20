@@ -1,59 +1,60 @@
 <div align="center">
-  <img src="https://github-widgetbox.vercel.app/api/profile?username=Seifkassab20&theme=radical&data=followers,repositories,stars,commits" />
-</div></br>
+  <img src="https://github-widgetbox.vercel.app/api/profile?username=Seifkassab20&theme=darkmode&data=followers,repositories,stars,commits" />
+</div>
 
-<h1 align="center">I'm Seif Kassab</h1>
-<h3 align="center">AI Engineer | Computer Vision | NLP | LLM Systems | Agentic AI Architect</h3>
+<h1 align="center">SEIF KASSAB</h1>
+
+<p align="center">
+AI Engineer • LLM Architect • Computer Vision • Agentic AI Systems
+</p>
 
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=FF0000&center=true&vCenter=true&width=500&lines=AI+Engineer;LLM+%7C+RAG+Architect;Computer+Vision+Researcher;Building+Autonomous+Systems;Always+Learning+%26+Optimizing" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=A020F0&center=true&vCenter=true&width=600&lines=Designing+Autonomous+AI+Systems;LLMs+%7C+RAG+%7C+Multi-Agent+Architectures;Computer+Vision+Research;Scalable+End-to-End+AI+Engineering" />
 </div>
 
 ---
 
-## 🧠 About Me
+## 🧠 PROFILE
 
-- 🇪🇬 Based in **Egypt**
-- 🧠 Focused on **LLMs, NLP, Computer Vision & Agentic AI**
-- 🔬 Working on **Medical Imaging & Underwater Image Enhancement Research**
-- ⚙️ Designing **End-to-End AI Pipelines**
-- 🚀 Exploring **RAG Systems & Multi-Agent Architectures**
-- 🎯 Goal: *Build scalable intelligent systems that operate autonomously.*
+- 🇪🇬 Egypt  
+- 🔬 Researching Medical Imaging & Underwater Enhancement  
+- 🤖 Building Agentic AI & LLM Systems  
+- ⚙️ Designing modular, scalable ML pipelines  
+- 🎯 Mission: Architect intelligent systems that operate autonomously  
 
 ---
 
-# 📊 AI Engineering Dashboard
+# 📊 AI SYSTEM DASHBOARD
 
-## 🔥 GitHub Streak
+## 🔥 Streak Performance
+
 <div align="center">
-  <img width="90%" src="https://github-readme-streak-stats.herokuapp.com/?user=Seifkassab20&theme=radical&hide_border=true&stroke=0000&background=0d1117&ring=00F7FF&fire=00F7FF&currStreakLabel=00F7FF" />
+  <img width="90%" src="https://github-readme-streak-stats.herokuapp.com/?user=Seifkassab20&theme=radical&hide_border=true&stroke=0000&background=0d1117&ring=A020F0&fire=A020F0&currStreakLabel=A020F0" />
 </div>
 
+---
 
-## 📈 Contribution Activity Graph
+## 🧬 Contribution Activity
 
 <div align="center">
-  <img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=Seifkassab20&bg_color=0d1117&color=00F7FF&line=00F7FF&point=00F7FF&area_color=0d1117&area=true&hide_border=true&custom_title=Seif%20Kassab%20AI%20Engineering%20Activity" />
+  <img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=Seifkassab20&bg_color=0d1117&color=A020F0&line=A020F0&point=ffffff&area=true&hide_border=true&custom_title=Seif%20Kassab%20Cyberpunk%20AI%20Activity" />
 </div>
 
 ---
 
 <details>
-  <summary><b>⚡ Advanced GitHub Analytics</b></summary>
+  <summary><b>⚡ Advanced Analytics</b></summary>
   <br/>
 
-  ### 🧠 Profile Summary
   <div align="center">
     <img width="95%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Seifkassab20&theme=radical" />
   </div>
 
-  ### 💻 Language & Commit Distribution
   <div align="center">
     <img width="45%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Seifkassab20&theme=radical" />
     <img width="45%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Seifkassab20&theme=radical" />
   </div>
 
-  ### ⏰ Productivity Insights
   <div align="center">
     <img width="45%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Seifkassab20&theme=radical&utcOffset=2" />
     <img width="45%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Seifkassab20&theme=radical" />
@@ -63,41 +64,38 @@
 
 ---
 
-# 💻 Tech Stack
+# 💻 TECH STACK
 
-## 🧠 AI & Machine Learning
+## 🧠 AI & Deep Learning
 <div align="center">
   
-[![My Skills](https://skillicons.dev/icons?i=python,pytorch,tensorflow,opencv,sklearn&perline=5)](https://skillicons.dev)
+[![Skills](https://skillicons.dev/icons?i=python,pytorch,tensorflow,opencv,sklearn&theme=dark)](https://skillicons.dev)
 
 </div>
 
-## 🔍 LLM & Backend Systems
+## 🧠 LLM & Backend Systems
 <div align="center">
 
-[![My Skills](https://skillicons.dev/icons?i=fastapi,docker,linux,git&perline=4)](https://skillicons.dev)
+[![Skills](https://skillicons.dev/icons?i=fastapi,docker,linux,git&theme=dark)](https://skillicons.dev)
 
 </div>
 
-## 📊 Data & Engineering
+## 🗄 Data Engineering
 <div align="center">
 
-[![My Skills](https://skillicons.dev/icons?i=postgres,mysql,mongodb&perline=3)](https://skillicons.dev)
+[![Skills](https://skillicons.dev/icons?i=postgres,mysql,mongodb&theme=dark)](https://skillicons.dev)
 
 </div>
 
 ---
 
-## 🧩 Featured Systems
+# 🧩 FEATURED SYSTEMS
 
 ### 🩺 Carotid Plaque Segmentation & Vulnerability Assessment
-Multi-view Attention U-Net for medical ultrasound segmentation and risk stratification.
+Multi-view Attention U-Net for ultrasound segmentation & risk classification.
 
-### 🤖 Real-Time Multi-Agent Travel Personalization System
-Agentic AI system for dynamic recommendation and proposal generation.
-
-### 🖥️ Indoor Air Qulaity Monitoring 
-Iot system for fetecting gases with an AI workflow
+### 🤖 Real-Time Multi-Agent Travel Personalization
+Agentic AI architecture for dynamic recommendation & proposal generation.
 
 ### 🌊 Underwater Image Enhancement Research
 Deep learning-based restoration pipeline for underwater imagery.
@@ -105,5 +103,5 @@ Deep learning-based restoration pipeline for underwater imagery.
 ---
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,100:00F7FF&height=100&section=footer&text=Building%20Intelligent%20Systems&fontSize=18&fontColor=ffffff" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,100:A020F0&height=100&section=footer&text=Cyberpunk%20AI%20Architect&fontSize=18&fontColor=ffffff" />
 </div>
