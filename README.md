@@ -76,16 +76,10 @@ AI Engineer • LLM Architect • Computer Vision • Agentic AI Systems
 ## 🧠 LLM & Backend Systems
 <div align="center">
 
-[![Skills](https://skillicons.dev/icons?i=fastapi,docker,linux,git&theme=dark)](https://skillicons.dev)
+[![Skills](https://skillicons.dev/icons?i=docker,,git&theme=dark)](https://skillicons.dev)
 
 </div>
 
-## 🗄 Data Engineering
-<div align="center">
-
-[![Skills](https://skillicons.dev/icons?i=postgres,mysql,mongodb&theme=dark)](https://skillicons.dev)
-
-</div>
 
 ---
 
