@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋 I'm Seif Kassab</h1>
-<h3 align="center">AI Engineer | Computer Vision | NLP | LLMs | Agentic AI Systems</h3>
+<h3 align="center">AI Engineer</h3>
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?size=25&duration=3000&color=00F7FF&center=true&vCenter=true&width=600&lines=AI+Engineer;Computer+Vision+Specialist;LLM+%7C+NLP+%7C+Agentic+AI;Building+End-to-End+AI+Systems" />
 </p>
@@ -17,28 +17,20 @@ AI Engineer focused on building **end-to-end intelligent systems** combining:
 - 🔬 Medical & Satellite Image Analysis
 - ⚙️ MLOps & AI System Deployment
 
-- 
----
-## 🛠️ Technologies & Tools
-
-<p align="center">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="50"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" height="50"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" height="50"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/opencv/opencv-original.svg" height="50"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" height="50"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" height="50"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" height="50"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" height="50"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="50"/>
-</p>
-
-
 ---
 
 <p align="center">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg" height="50"/>
   <img src="https://huggingface.co/front/assets/huggingface_logo.svg" height="50"/>
+</p>
+
+---
+
+<p align="center">
+  <img src="https://img.shields.io/badge/AI-Engineer-blue?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Computer-Vision-purple?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/LLMs-Transformers-orange?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Agentic-AI-red?style=for-the-badge" />
 </p>
 
 ---
@@ -57,7 +49,7 @@ AI Engineer focused on building **end-to-end intelligent systems** combining:
 ## 🛠️ Tech Stack
 
 ### 👨‍💻 Languages
-Python | SQL | Bash
+Python | SQL 
 
 ### 🤖 AI & Deep Learning
 PyTorch | TensorFlow | HuggingFace | OpenCV | Scikit-Learn
@@ -69,7 +61,7 @@ Transformers | RAG Pipelines | LangChain | Vector Databases
 Pandas | NumPy | Spark
 
 ### 🚀 Deployment & DevOps
-Docker | FastAPI | Git | Linux
+Docker | Streamlit | Git
 
 ---
 
