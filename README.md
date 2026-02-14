@@ -73,9 +73,11 @@ I focus on building production-ready AI systems including:
 
 ## 📊 GitHub Analytics
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Seifkassab20&show_icons=true&theme=tokyonight)
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Seifkassab20&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&cache_seconds=1800" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Seifkassab20&layout=compact&theme=tokyonight&hide_border=true&cache_seconds=1800" />
+</p>
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Seifkassab20&layout=compact&theme=tokyonight)
 
 ---
 
