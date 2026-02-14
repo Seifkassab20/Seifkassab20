@@ -103,5 +103,5 @@ Deep learning-based restoration pipeline for underwater imagery.
 ---
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,100:A020F0&height=100&section=footer&text=Cyberpunk%20AI%20Architect&fontSize=18&fontColor=ffffff" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,100:A020F0&height=100&section=footer&text=%20AI%20Ai+Architect&fontSize=18&fontColor=ffffff" />
 </div>
