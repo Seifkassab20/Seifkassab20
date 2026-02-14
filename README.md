@@ -1,7 +1,17 @@
 <h1 align="center">Hi 👋 I'm Seif Kassab</h1>
 <h3 align="center">AI Engineer</h3>
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?size=25&duration=3000&color=00F7FF&center=true&vCenter=true&width=600&lines=AI+Engineer;Computer+Vision+Specialist;LLM+%7C+NLP+%7C+Agentic+AI;Building+End-to-End+AI+Systems" />
+  <img src="https://readme-typing-svg.herokuapp.com?size=25&duration=3000&color=FF0000&center=true&vCenter=true&width=600&lines=AI+Engineer" />
+</p>
+
+---
+
+
+<p align="center">
+  <img src="https://img.shields.io/badge/AI-Engineer-blue?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Computer-Vision-purple?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/LLMs-Transformers-orange?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Agentic-AI-red?style=for-the-badge" />
 </p>
 
 ---
@@ -19,21 +29,7 @@ AI Engineer focused on building **end-to-end intelligent systems** combining:
 
 ---
 
-<p align="center">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg" height="50"/>
-  <img src="https://huggingface.co/front/assets/huggingface_logo.svg" height="50"/>
-</p>
 
----
-
-<p align="center">
-  <img src="https://img.shields.io/badge/AI-Engineer-blue?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Computer-Vision-purple?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/LLMs-Transformers-orange?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Agentic-AI-red?style=for-the-badge" />
-</p>
-
----
 
 ## 🔥 Core Expertise
 
