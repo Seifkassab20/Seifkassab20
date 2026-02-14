@@ -2,11 +2,11 @@
   <img src="https://github-widgetbox.vercel.app/api/profile?username=Seifkassab20&theme=radical&data=followers,repositories,stars,commits" />
 </div></br>
 
-<h1 align="center">Hi 👋, I'm Seif Kassab</h1>
+<h1 align="center">I'm Seif Kassab</h1>
 <h3 align="center">AI Engineer | Computer Vision | NLP | LLM Systems | Agentic AI Architect</h3>
 
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=00F7FF&center=true&vCenter=true&width=500&lines=AI+Engineer;LLM+%7C+RAG+Architect;Computer+Vision+Researcher;Building+Autonomous+Systems;Always+Learning+%26+Optimizing" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=FF0000&center=true&vCenter=true&width=500&lines=AI+Engineer;LLM+%7C+RAG+Architect;Computer+Vision+Researcher;Building+Autonomous+Systems;Always+Learning+%26+Optimizing" />
 </div>
 
 ---
@@ -29,14 +29,6 @@
   <img width="90%" src="https://github-readme-streak-stats.herokuapp.com/?user=Seifkassab20&theme=radical&hide_border=true&stroke=0000&background=0d1117&ring=00F7FF&fire=00F7FF&currStreakLabel=00F7FF" />
 </div>
 
-## 📈 Core Statistics
-
-<div align="center">
-  <img width="49%" height="195px" src="https://github-readme-stats.vercel.app/api?username=Seifkassab20&show_icons=true&count_private=true&hide_border=true&theme=radical&include_all_commits=true" /> 
-  <img width="49%" height="195px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Seifkassab20&layout=compact&hide_border=true&theme=radical&langs_count=10" />
-</div>
-
----
 
 ## 📈 Contribution Activity Graph
 
