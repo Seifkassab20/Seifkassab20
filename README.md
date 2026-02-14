@@ -1,5 +1,8 @@
 <h1 align="center">Hi 👋 I'm Seif Kassab</h1>
 <h3 align="center">AI Engineer | Computer Vision | NLP | LLMs | Agentic AI Systems</h3>
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?size=25&duration=3000&color=00F7FF&center=true&vCenter=true&width=600&lines=AI+Engineer;Computer+Vision+Specialist;LLM+%7C+NLP+%7C+Agentic+AI;Building+End-to-End+AI+Systems" />
+</p>
 
 ---
 
@@ -14,7 +17,29 @@ AI Engineer focused on building **end-to-end intelligent systems** combining:
 - 🔬 Medical & Satellite Image Analysis
 - ⚙️ MLOps & AI System Deployment
 
-I design scalable AI pipelines — from data preprocessing and model development to evaluation, monitoring, and deployment.
+- 
+---
+## 🛠️ Technologies & Tools
+
+<p align="center">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="50"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" height="50"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" height="50"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/opencv/opencv-original.svg" height="50"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" height="50"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" height="50"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" height="50"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" height="50"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="50"/>
+</p>
+
+
+---
+
+<p align="center">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg" height="50"/>
+  <img src="https://huggingface.co/front/assets/huggingface_logo.svg" height="50"/>
+</p>
 
 ---
 
@@ -73,10 +98,8 @@ I focus on building production-ready AI systems including:
 
 ## 📊 GitHub Analytics
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Seifkassab20&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&cache_seconds=1800" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Seifkassab20&layout=compact&theme=tokyonight&hide_border=true&cache_seconds=1800" />
-</p>
+![GitHub Streak](https://streak-stats.demolab.com?user=Seifkassab20&theme=tokyonight&hide_border=true)
+
 
 
 ---
