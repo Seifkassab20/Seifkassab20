@@ -1,80 +1,117 @@
-<h1 align="center">Seif Kassab</h1>
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?size=25&duration=3000&color=FF0000&center=true&vCenter=true&width=600&lines=AI+Engineer" />
-</p>
+<div align="center">
+  <img src="https://github-widgetbox.vercel.app/api/profile?username=Seifkassab20&theme=radical&data=followers,repositories,stars,commits" />
+</div></br>
+
+<h1 align="center">Hi 👋, I'm Seif Kassab</h1>
+<h3 align="center">AI Engineer | Computer Vision | NLP | LLM Systems | Agentic AI Architect</h3>
+
+<div align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=00F7FF&center=true&vCenter=true&width=500&lines=AI+Engineer;LLM+%7C+RAG+Architect;Computer+Vision+Researcher;Building+Autonomous+Systems;Always+Learning+%26+Optimizing" />
+</div>
 
 ---
 
+## 🧠 About Me
 
-<p align="center">
-  <img src="https://img.shields.io/badge/AI-Engineer-blue?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Computer-Vision-purple?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/LLMs-Transformers-orange?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Agentic-AI-red?style=for-the-badge" />
-</p>
-
----
-
-## 🚀 About Me
-
-AI Engineer focused on building **end-to-end intelligent systems** combining:
-
-- 🧠 Large Language Models (LLMs)
-- 📚 Natural Language Processing (NLP)
-- 👁️ Computer Vision (CV)
-- 🤖 Agentic AI & Multi-Agent Architectures
-- 🔬 Medical & Satellite Image Analysis
-- ⚙️ MLOps & AI System Deployment
+- 🇪🇬 Based in **Egypt**
+- 🧠 Focused on **LLMs, NLP, Computer Vision & Agentic AI**
+- 🔬 Working on **Medical Imaging & Underwater Image Enhancement Research**
+- ⚙️ Designing **End-to-End AI Pipelines**
+- 🚀 Exploring **RAG Systems & Multi-Agent Architectures**
+- 🎯 Goal: *Build scalable intelligent systems that operate autonomously.*
 
 ---
 
+# 📊 AI Engineering Dashboard
 
+## 🔥 GitHub Streak
+<div align="center">
+  <img width="90%" src="https://github-readme-streak-stats.herokuapp.com/?user=Seifkassab20&theme=radical&hide_border=true&stroke=0000&background=0d1117&ring=00F7FF&fire=00F7FF&currStreakLabel=00F7FF" />
+</div>
 
-## 🔥 Core Expertise
+## 📈 Core Statistics
 
-- Computer Vision (Segmentation, Detection, Medical Imaging)
-- NLP & Transformer Architectures
-- Large Language Models (Fine-tuning, RAG, Prompt Engineering)
-- Agentic AI & Multi-Agent Systems
-- Deep Learning (CNNs, Vision Transformers, GANs)
-- MLOps & AI System Design
-
----
-
-## 🛠️ Tech Stack
-
-### 👨‍💻 Languages
-Python | SQL 
-
-### 🤖 AI & Deep Learning
-PyTorch | TensorFlow | HuggingFace | OpenCV | Scikit-Learn
-
-### 🧠 LLM & NLP
-Transformers | RAG Pipelines | LangChain | Vector Databases
-
-### 📊 Data & Big Data
-Pandas | NumPy | Spark
-
-### 🚀 Deployment & DevOps
-Docker | Streamlit | Git
+<div align="center">
+  <img width="49%" height="195px" src="https://github-readme-stats.vercel.app/api?username=Seifkassab20&show_icons=true&count_private=true&hide_border=true&theme=radical&include_all_commits=true" /> 
+  <img width="49%" height="195px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Seifkassab20&layout=compact&hide_border=true&theme=radical&langs_count=10" />
+</div>
 
 ---
 
+## 📈 Contribution Activity Graph
 
-## 📊 GitHub Analytics
-
-![GitHub Streak](https://streak-stats.demolab.com?user=Seifkassab20&theme=tokyonight&hide_border=true)
-
-
-
----
-
-## 📫 Connect With Me
-
-- 💼 Open to AI Engineering & Research Opportunities
-- 📧 Seifkassab150@gmail.com
-- 🌍 Based in Egypt
+<div align="center">
+  <img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=Seifkassab20&bg_color=0d1117&color=00F7FF&line=00F7FF&point=00F7FF&area_color=0d1117&area=true&hide_border=true&custom_title=Seif%20Kassab%20AI%20Engineering%20Activity" />
+</div>
 
 ---
 
-⭐ Always open to collaborating on AI research & intelligent system projects.
+<details>
+  <summary><b>⚡ Advanced GitHub Analytics</b></summary>
+  <br/>
+
+  ### 🧠 Profile Summary
+  <div align="center">
+    <img width="95%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Seifkassab20&theme=radical" />
+  </div>
+
+  ### 💻 Language & Commit Distribution
+  <div align="center">
+    <img width="45%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Seifkassab20&theme=radical" />
+    <img width="45%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Seifkassab20&theme=radical" />
+  </div>
+
+  ### ⏰ Productivity Insights
+  <div align="center">
+    <img width="45%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Seifkassab20&theme=radical&utcOffset=2" />
+    <img width="45%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Seifkassab20&theme=radical" />
+  </div>
+
+</details>
+
+---
+
+# 💻 Tech Stack
+
+## 🧠 AI & Machine Learning
+<div align="center">
+  
+[![My Skills](https://skillicons.dev/icons?i=python,pytorch,tensorflow,opencv,sklearn&perline=5)](https://skillicons.dev)
+
+</div>
+
+## 🔍 LLM & Backend Systems
+<div align="center">
+
+[![My Skills](https://skillicons.dev/icons?i=fastapi,docker,linux,git&perline=4)](https://skillicons.dev)
+
+</div>
+
+## 📊 Data & Engineering
+<div align="center">
+
+[![My Skills](https://skillicons.dev/icons?i=postgres,mysql,mongodb&perline=3)](https://skillicons.dev)
+
+</div>
+
+---
+
+## 🧩 Featured Systems
+
+### 🩺 Carotid Plaque Segmentation & Vulnerability Assessment
+Multi-view Attention U-Net for medical ultrasound segmentation and risk stratification.
+
+### 🤖 Real-Time Multi-Agent Travel Personalization System
+Agentic AI system for dynamic recommendation and proposal generation.
+
+### 🖥️ Indoor Air Qulaity Monitoring 
+Iot system for fetecting gases with an AI workflow
+
+### 🌊 Underwater Image Enhancement Research
+Deep learning-based restoration pipeline for underwater imagery.
+
+---
+
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,100:00F7FF&height=100&section=footer&text=Building%20Intelligent%20Systems&fontSize=18&fontColor=ffffff" />
+</div>
