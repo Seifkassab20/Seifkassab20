@@ -6,7 +6,7 @@
   <a href="https://linkedin.com/in/seif-kassab-2931b0298" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
-  <a href="https://MathtoData.com" target="_blank">
+  <a href="https://seifkassab20.github.io/Seifkassab20/" target="_blank">
     <img src="https://img.shields.io/badge/Portfolio-A020F0?style=for-the-badge&logo=react&logoColor=white" alt="Portfolio" />
   </a>
   <a href="mailto:seifkassab150@gmail.com" target="_blank">
