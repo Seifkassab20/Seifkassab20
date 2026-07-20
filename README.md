@@ -51,6 +51,9 @@
 
 ## 💼 Core Experience
 
+* **Full-Stack Software Engineer (Freelance)** | *LOMIXA Healthcare Platform* (2026)
+  * Designed and developed a comprehensive **Healthcare Engagement and Medical Sales Management Platform** connecting pharma companies, medical reps, doctors, hospitals, and clinics.
+  * Implemented appointment scheduling, visit tracking, role-based dashboards, subscription bundles, real-time communication, email verification, and payment gateway integrations.
 * **Computer Vision Intern** | *Cellula Technologies* (2026)
   * Engineered a high-precision **Teeth Classification model** achieving **98.7% accuracy**.
   * Developed a **Water Segmentation system** using optical and multispectral data, reaching a **90.65% IoU**.
@@ -76,6 +79,20 @@
 *Multi-agent workflow to automate itinerary building and proposal generation.*
 * **Tech Stack:** FastAPI, React, Multi-Agent Architecture, LLMs
 * Designed cooperating agents that interpret user preferences, scrape and query real-time flights/hotels, and generate detailed personalized travel proposals.
+
+---
+
+### 💻 Full-Stack & Core Systems
+
+#### 🏥 LOMIXA Healthcare Platform
+*Comprehensive Healthcare Engagement & Medical Sales Management Platform.*
+* **Tech Stack:** React, Python/Node, PostgreSQL, Cloud Infrastructure, Payment Gateways
+* Built multi-role enterprise platform linking pharmaceutical companies, doctors, hospitals, clinics, and medical reps with scheduling, visit management, dashboards, and live communication.
+
+#### ☁️ Spatiotemporal Cloud Traffic Analytics & Forecasting
+*AWS & Google Cloud network traffic spatiotemporal modeling and anomaly forecasting pipeline.*
+* **Tech Stack:** Python, Pandas, Scikit-learn, PCA, Isolation Forest, Random Forest, KNN
+* Built an end-to-end spatiotemporal analytics pipeline across French cities using PCA, Isolation Forest anomaly detection, KMeans clustering, and regression models achieving up to **97% R²**.
 
 ---
 
