@@ -1,2 +1,4 @@
-*.pdf
 *.jpg 
+!Personal.jpg
+!personal.jpg
+*.pdf

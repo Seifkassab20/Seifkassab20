@@ -81,6 +81,11 @@
 * **Tech Stack:** FastAPI, React, Multi-Agent Architecture, LLMs
 * Designed cooperating agents that interpret user preferences, scrape and query real-time flights/hotels, and generate detailed personalized travel proposals.
 
+#### 📚 Al-Maktaba Al-Digital: Strictly-Grounded Book-Constrained Oracle
+*Citation-enforced RAG QA system over classical Islamic texts.*
+* **Tech Stack:** Python, LLMs, RAG, Vector Database, Semantic Search, AI Agents
+* Built a citation-enforced Retrieval-Augmented Generation (RAG) system featuring page-level citation grounding, evidence highlighting, and an AI verification agent to ensure zero-hallucination responses.
+
 ---
 
 ### 💻 Full-Stack & Core Systems
