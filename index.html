@@ -175,29 +175,72 @@
         min-height: 100vh;
         display: flex;
         align-items: center;
-        padding-top: 80px;
+        padding-top: 100px;
+        padding-bottom: 4rem;
         position: relative;
       }
 
+      .hero-grid {
+        display: grid;
+        grid-template-columns: 1.2fr 0.8fr;
+        gap: 4rem;
+        align-items: center;
+      }
+
       .hero-content {
-        max-width: 800px;
         animation: fadeInUp 1s ease forwards;
+      }
+
+      .status-pill {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.55rem;
+        background: rgba(16, 185, 129, 0.1);
+        border: 1px solid rgba(16, 185, 129, 0.3);
+        color: #34d399;
+        font-family: "Fira Code", monospace;
+        font-size: 0.83rem;
+        font-weight: 500;
+        padding: 0.4rem 1rem;
+        border-radius: 20px;
+        margin-bottom: 1.5rem;
+        backdrop-filter: blur(8px);
+      }
+
+      .status-dot {
+        width: 8px;
+        height: 8px;
+        background-color: #10b981;
+        border-radius: 50%;
+        box-shadow: 0 0 10px #10b981;
+        animation: pulseDot 2s infinite;
+      }
+
+      @keyframes pulseDot {
+        0%, 100% {
+          transform: scale(1);
+          opacity: 1;
+        }
+        50% {
+          transform: scale(1.45);
+          opacity: 0.5;
+        }
       }
 
       .hero-pretitle {
         font-family: "Fira Code", monospace;
         color: var(--accent-cyan);
-        font-size: 1.1rem;
-        margin-bottom: 1rem;
+        font-size: 1.05rem;
+        margin-bottom: 0.75rem;
         display: block;
         letter-spacing: 2px;
       }
 
       .hero-title {
-        font-size: clamp(3rem, 8vw, 5rem);
+        font-size: clamp(2.8rem, 6vw, 4.5rem);
         font-weight: 800;
         line-height: 1.1;
-        margin-bottom: 1.5rem;
+        margin-bottom: 1rem;
         background: linear-gradient(
           135deg,
           #ffffff 30%,
@@ -209,17 +252,17 @@
       }
 
       .hero-subtitle {
-        font-size: clamp(1.2rem, 3vw, 1.8rem);
-        font-weight: 500;
+        font-size: clamp(1.2rem, 2.5vw, 1.6rem);
+        font-weight: 600;
         color: var(--text-main);
-        margin-bottom: 1.5rem;
+        margin-bottom: 1.25rem;
       }
 
       .typing-text-container {
         font-family: "Fira Code", monospace;
-        font-size: 1.2rem;
+        font-size: 1.15rem;
         color: var(--accent-cyan);
-        margin-bottom: 2rem;
+        margin-bottom: 1.75rem;
         height: 2rem;
         display: flex;
         align-items: center;
@@ -236,9 +279,10 @@
 
       .hero-description {
         color: var(--text-muted);
-        font-size: 1.1rem;
-        max-width: 600px;
-        margin-bottom: 2.5rem;
+        font-size: 1.05rem;
+        max-width: 620px;
+        margin-bottom: 2.2rem;
+        line-height: 1.7;
       }
 
       .hero-actions {
@@ -286,6 +330,159 @@
         border-color: var(--accent-cyan);
         transform: translateY(-3px);
         box-shadow: 0 4px 15px rgba(59, 130, 246, 0.25);
+      }
+
+      /* Hero Stats Bar */
+      .hero-stats {
+        display: flex;
+        gap: 2.5rem;
+        margin-top: 2.5rem;
+        padding-top: 2rem;
+        border-top: 1px solid rgba(255, 255, 255, 0.08);
+      }
+
+      .stat-item {
+        display: flex;
+        flex-direction: column;
+      }
+
+      .stat-number {
+        font-size: 1.8rem;
+        font-weight: 800;
+        font-family: "Fira Code", monospace;
+        background: linear-gradient(135deg, #ffffff 40%, var(--accent-cyan));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+
+      .stat-label {
+        font-size: 0.78rem;
+        color: var(--text-muted);
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        margin-top: 0.2rem;
+      }
+
+      /* Hero Photo Avatar Frame */
+      .hero-avatar-container {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        animation: fadeInUp 1.2s ease forwards;
+      }
+
+      .avatar-glow {
+        position: absolute;
+        width: 360px;
+        height: 420px;
+        background: radial-gradient(
+          circle,
+          rgba(0, 240, 255, 0.25) 0%,
+          rgba(168, 85, 247, 0.2) 40%,
+          transparent 70%
+        );
+        border-radius: 50%;
+        filter: blur(35px);
+        z-index: 0;
+        animation: floatGlow 6s ease-in-out infinite alternate;
+      }
+
+      @keyframes floatGlow {
+        0% {
+          transform: scale(0.92) translateY(-8px);
+        }
+        100% {
+          transform: scale(1.08) translateY(12px);
+        }
+      }
+
+      .avatar-frame {
+        position: relative;
+        width: 330px;
+        height: 420px;
+        border-radius: 24px;
+        padding: 6px;
+        background: linear-gradient(
+          135deg,
+          rgba(0, 240, 255, 0.7),
+          rgba(59, 130, 246, 0.3),
+          rgba(168, 85, 247, 0.7)
+        );
+        box-shadow:
+          0 20px 45px rgba(0, 0, 0, 0.6),
+          0 0 30px rgba(0, 240, 255, 0.25);
+        z-index: 1;
+        transition:
+          transform 0.4s ease,
+          box-shadow 0.4s ease;
+      }
+
+      .avatar-frame:hover {
+        transform: translateY(-8px) scale(1.02);
+        box-shadow:
+          0 25px 55px rgba(0, 240, 255, 0.4),
+          0 0 40px rgba(0, 240, 255, 0.3);
+      }
+
+      .avatar-img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center top;
+        border-radius: 18px;
+        filter: brightness(1.02) contrast(1.05);
+        display: block;
+      }
+
+      /* Floating Micro Badges */
+      .floating-badge {
+        position: absolute;
+        background: rgba(4, 9, 24, 0.88);
+        border: 1px solid var(--glass-border-hover);
+        backdrop-filter: blur(14px);
+        padding: 0.6rem 1.1rem;
+        border-radius: 30px;
+        display: flex;
+        align-items: center;
+        gap: 0.65rem;
+        font-size: 0.85rem;
+        font-weight: 600;
+        color: var(--text-main);
+        box-shadow: 0 12px 30px rgba(0, 0, 0, 0.5);
+        z-index: 2;
+        animation: floatBadge 4s ease-in-out infinite alternate;
+      }
+
+      .floating-badge-1 {
+        top: 25px;
+        left: -35px;
+        animation-delay: 0s;
+      }
+
+      .floating-badge-2 {
+        bottom: 35px;
+        right: -35px;
+        animation-delay: 2s;
+      }
+
+      .floating-badge-3 {
+        bottom: -20px;
+        left: 20px;
+        animation-delay: 1s;
+      }
+
+      .floating-badge i {
+        font-size: 1.05rem;
+      }
+
+      @keyframes floatBadge {
+        0% {
+          transform: translateY(0px);
+        }
+        100% {
+          transform: translateY(-10px);
+        }
       }
 
       /* Section Global Styles */
@@ -465,9 +662,55 @@
           var(--accent-blue),
           var(--accent-cyan)
         );
-        color: var(--bg-primary);
-        border-color: transparent;
         box-shadow: 0 4px 15px rgba(0, 240, 255, 0.3);
+      }
+
+      .filter-btn i {
+        margin-right: 0.4rem;
+      }
+
+      /* Category Badges on Cards */
+      .category-pill {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.4rem;
+        font-family: "Fira Code", monospace;
+        font-size: 0.72rem;
+        font-weight: 600;
+        padding: 0.25rem 0.65rem;
+        border-radius: 20px;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+      }
+
+      .category-pill.agentic {
+        background: rgba(0, 240, 255, 0.12);
+        color: #00f0ff;
+        border: 1px solid rgba(0, 240, 255, 0.3);
+      }
+
+      .category-pill.cv {
+        background: rgba(168, 85, 247, 0.12);
+        color: #c084fc;
+        border: 1px solid rgba(168, 85, 247, 0.3);
+      }
+
+      .category-pill.fullstack {
+        background: rgba(16, 185, 129, 0.12);
+        color: #34d399;
+        border: 1px solid rgba(16, 185, 129, 0.3);
+      }
+
+      .category-pill.nlp {
+        background: rgba(245, 158, 11, 0.12);
+        color: #fbbf24;
+        border: 1px solid rgba(245, 158, 11, 0.3);
+      }
+
+      .category-pill.datascience {
+        background: rgba(59, 130, 246, 0.12);
+        color: #60a5fa;
+        border: 1px solid rgba(59, 130, 246, 0.3);
       }
 
       .projects-grid {
@@ -931,8 +1174,92 @@
         }
       }
 
+      /* Achievements & Honors Section */
+      .achievements-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+        gap: 2rem;
+      }
+
+      .achievement-card {
+        background: var(--glass-bg);
+        border: 1px solid var(--glass-border);
+        border-radius: 18px;
+        padding: 2rem;
+        backdrop-filter: blur(12px);
+        transition: all 0.3s ease;
+        display: flex;
+        flex-direction: column;
+        gap: 0.8rem;
+      }
+
+      .achievement-card:hover {
+        border-color: var(--accent-cyan);
+        transform: translateY(-6px);
+        box-shadow: 0 12px 30px rgba(0, 240, 255, 0.15);
+      }
+
+      .achievement-icon {
+        font-size: 2.2rem;
+      }
+
+      .achievement-tag {
+        font-family: "Fira Code", monospace;
+        font-size: 0.78rem;
+        color: var(--accent-cyan);
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-weight: 600;
+        margin-bottom: 0.2rem;
+        display: block;
+      }
+
+      .achievement-title {
+        font-size: 1.25rem;
+        font-weight: 700;
+        color: var(--text-main);
+        margin-bottom: 0.4rem;
+      }
+
+      .achievement-desc {
+        color: var(--text-muted);
+        font-size: 0.92rem;
+        line-height: 1.6;
+      }
+
       /* Responsive adjustments */
       @media (max-width: 968px) {
+        .hero-grid {
+          grid-template-columns: 1fr;
+          text-align: center;
+          gap: 3.5rem;
+        }
+
+        .typing-text-container {
+          justify-content: center;
+        }
+
+        .hero-description {
+          margin-left: auto;
+          margin-right: auto;
+        }
+
+        .hero-actions {
+          justify-content: center;
+        }
+
+        .hero-stats {
+          justify-content: center;
+        }
+
+        .floating-badge-1 {
+          left: 5px;
+        }
+
+        .floating-badge-2 {
+          right: 5px;
+        }
+
         .contact-wrapper {
           grid-template-columns: 1fr;
           gap: 3rem;
@@ -979,15 +1306,14 @@
     <!-- Navigation bar -->
     <header>
       <div class="container nav-container">
-        <a href="#" class="logo"
-          ><span>&lt;</span>SEIF KASSAB<span>/&gt;</span></a
-        >
+        <a href="#" class="logo">SEIF KASSAB</a>
         <nav>
           <ul>
             <li><a href="#hero" class="active">Home</a></li>
             <li><a href="#skills">Skills</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="#experience">Experience</a></li>
+            <li><a href="#achievements">Achievements</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
         </nav>
@@ -997,26 +1323,50 @@
     <!-- Hero Section -->
     <section id="hero">
       <div class="container">
-        <div class="hero-content">
-          <h1 class="hero-title">Seif Kassab</h1>
-          <div class="hero-subtitle">
-            Artificial Intelligence Engineer & LLM Architect
+        <div class="hero-grid">
+          <!-- Hero Text Content -->
+          <div class="hero-content">
+            <div class="status-pill">
+              <span class="status-dot"></span> Open to AI & Data Science Roles
+            </div>
+            <span class="hero-pretitle">ARTIFICIAL INTELLIGENCE ENGINEER</span>
+            <h1 class="hero-title">Seif Kassab</h1>
+            <div class="hero-subtitle">
+              LLM Architect & Computer Vision Specialist
+            </div>
+            <div class="typing-text-container">
+              <span id="typing-text"></span><span class="cursor"></span>
+            </div>
+            <p class="hero-description">
+              Artificial Intelligence graduate from Nile University specializing in multi-agent networks, computer vision algorithms, and high-performance ML pipelines. Experienced in engineering scalable production software and end-to-end intelligent systems.
+            </p>
+            <div class="hero-actions">
+              <a href="#projects" class="btn btn-primary"
+                ><i class="fa-solid fa-rocket"></i> Explore Projects</a
+              >
+              <a href="Seif_Kassab_CV__Data_science_.pdf" target="_blank" class="btn btn-secondary"
+                ><i class="fa-solid fa-file-arrow-down"></i> View Resume</a
+              >
+              <a href="#contact" class="btn btn-secondary"
+                ><i class="fa-solid fa-paper-plane"></i> Contact Me</a
+              >
+            </div>
+
+            <!-- Quick Stats Bar -->
+            <div class="hero-stats">
+              <div class="stat-item">
+                <span class="stat-number">13+</span>
+                <span class="stat-label">AI & ML Systems</span>
+              </div>
+            </div>
           </div>
-          <div class="typing-text-container">
-            <span id="typing-text"></span><span class="cursor"></span>
-          </div>
-          <p class="hero-description">
-            Designing autonomous multi-agent networks, high-accuracy computer
-            vision solutions, and deep medical diagnostics architectures to
-            resolve production challenges.
-          </p>
-          <div class="hero-actions">
-            <a href="#projects" class="btn btn-primary"
-              ><i class="fa-solid fa-code"></i> Explore Projects</a
-            >
-            <a href="#contact" class="btn btn-secondary"
-              ><i class="fa-solid fa-envelope"></i> Contact System</a
-            >
+
+          <!-- Hero Avatar Image Frame -->
+          <div class="hero-avatar-container">
+            <div class="avatar-glow"></div>
+            <div class="avatar-frame">
+              <img src="Personal.jpg" alt="Seif Kassab - Artificial Intelligence Engineer" class="avatar-img" />
+            </div>
           </div>
         </div>
       </div>
@@ -1149,19 +1499,22 @@
         <!-- Interactive filter tabs -->
         <div class="filter-container">
           <button class="filter-btn active" data-filter="all">
-            All Systems
-          </button>
-          <button class="filter-btn" data-filter="agentic">
-            Agentic AI & LLMs
+            <i class="fa-solid fa-layer-group"></i> All Projects
           </button>
           <button class="filter-btn" data-filter="cv">
-            Computer Vision & Med
+            <i class="fa-solid fa-eye"></i> Computer Vision (CV)
+          </button>
+          <button class="filter-btn" data-filter="fullstack">
+            <i class="fa-solid fa-code"></i> Full Stack
+          </button>
+          <button class="filter-btn" data-filter="agentic">
+            <i class="fa-solid fa-robot"></i> Agentic AI
           </button>
           <button class="filter-btn" data-filter="nlp">
-            NLP & Recommendation
+            <i class="fa-solid fa-comments"></i> NLP
           </button>
-          <button class="filter-btn" data-filter="core">
-            Core Engineering
+          <button class="filter-btn" data-filter="datascience">
+            <i class="fa-solid fa-chart-line"></i> Data Science
           </button>
         </div>
 
@@ -1295,6 +1648,70 @@
       </div>
     </section>
 
+    <!-- Achievements & Honors Section -->
+    <section id="achievements">
+      <div class="container">
+        <h2 class="section-title">Achievements & Honors</h2>
+        <div class="achievements-grid">
+          <!-- Achievement 1 -->
+          <div class="achievement-card">
+            <div class="achievement-icon" style="color: #f59e0b">
+              <i class="fa-solid fa-trophy"></i>
+            </div>
+            <div>
+              <span class="achievement-tag">1st Place Award</span>
+              <h3 class="achievement-title">UGRF Research Forum (2026)</h3>
+              <p class="achievement-desc">
+                Awarded First Place at Nile University Undergraduate Research Forum for project <strong>Real-Time Multi-Agent System for Travel Personalization</strong>.
+              </p>
+            </div>
+          </div>
+
+          <!-- Achievement 2 -->
+          <div class="achievement-card">
+            <div class="achievement-icon" style="color: #00f0ff">
+              <i class="fa-solid fa-award"></i>
+            </div>
+            <div>
+              <span class="achievement-tag">GPA 4.0 & 3.85</span>
+              <h3 class="achievement-title">President's & Dean's Honors</h3>
+              <p class="achievement-desc">
+                Recognized on the <strong>President's Honor List</strong> (4.0 GPA, 2026) and <strong>Dean's Honor List</strong> (3.85 GPA, 2024) with cumulative GPA 3.78.
+              </p>
+            </div>
+          </div>
+
+          <!-- Achievement 3 -->
+          <div class="achievement-card">
+            <div class="achievement-icon" style="color: #a855f7">
+              <i class="fa-solid fa-code-branch"></i>
+            </div>
+            <div>
+              <span class="achievement-tag">ECPC 2023 & 2024</span>
+              <h3 class="achievement-title">Competitive Programming Ranks</h3>
+              <p class="achievement-desc">
+                Ranked <strong>27th (2024)</strong> and <strong>39th (2023)</strong> in Nile University Competitive Programming Contest (ECPC).
+              </p>
+            </div>
+          </div>
+
+          <!-- Achievement 4 -->
+          <div class="achievement-card">
+            <div class="achievement-icon" style="color: #10b981">
+              <i class="fa-solid fa-users-gear"></i>
+            </div>
+            <div>
+              <span class="achievement-tag">Leadership Roles</span>
+              <h3 class="achievement-title">Head of Technical</h3>
+              <p class="achievement-desc">
+                Served as Head of Technical for <strong>Virtus Gaming Club (2025)</strong> and <strong>MSC (2025 - 2026)</strong>, directing technical workshops & development.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- Contact Section -->
     <section id="contact">
       <div class="container">
@@ -1302,10 +1719,9 @@
         <div class="contact-wrapper">
           <!-- Info Panel -->
           <div class="contact-info-panel">
-            <h3>System Credentials</h3>
+            <h3>Get In Touch</h3>
             <p>
-              Have questions about the multi-agent architectures or computer
-              vision models? Feel free to reach out to launch a collaboration.
+              Interested in collaborating, discussing AI & Data Science projects, or exploring work opportunities? Feel free to reach out!
             </p>
 
             <div class="contact-list">
@@ -1314,7 +1730,7 @@
                   <i class="fa-solid fa-envelope"></i>
                 </div>
                 <div>
-                  <span class="contact-label">Email Access</span>
+                  <span class="contact-label">Email</span>
                   <span class="contact-value">seifkassab150@gmail.com</span>
                 </div>
               </a>
@@ -1328,7 +1744,7 @@
                   <i class="fab fa-linkedin-in"></i>
                 </div>
                 <div>
-                  <span class="contact-label">LinkedIn Connection</span>
+                  <span class="contact-label">LinkedIn</span>
                   <span class="contact-value">seif-kassab-2931b0298</span>
                 </div>
               </a>
@@ -1340,7 +1756,7 @@
               >
                 <div class="contact-icon"><i class="fab fa-github"></i></div>
                 <div>
-                  <span class="contact-label">GitHub Core</span>
+                  <span class="contact-label">GitHub</span>
                   <span class="contact-value">Seifkassab20</span>
                 </div>
               </a>
@@ -1352,28 +1768,28 @@
             <form
               onsubmit="
                 event.preventDefault();
-                alert('Transmission simulated successfully! Thank you.');
+                alert('Thank you for reaching out! Your message has been submitted.');
               "
             >
               <div class="form-group">
-                <label for="name">Your Identity</label>
-                <input type="text" id="name" placeholder="John Doe" required />
+                <label for="name">Your Name</label>
+                <input type="text" id="name" placeholder="Enter your name" required />
               </div>
               <div class="form-group">
-                <label for="email">Return Channel (Email)</label>
+                <label for="email">Your Email</label>
                 <input
                   type="email"
                   id="email"
-                  placeholder="john@example.com"
+                  placeholder="Enter your email"
                   required
                 />
               </div>
               <div class="form-group">
-                <label for="message">Transmission Payload</label>
+                <label for="message">Your Message</label>
                 <textarea
                   id="message"
                   rows="5"
-                  placeholder="Let's build something awesome..."
+                  placeholder="Write your message here..."
                   required
                 ></textarea>
               </div>
@@ -1429,7 +1845,7 @@
             <div class="modal-tech-stack" id="modal-project-tech"></div>
           </div>
         </div>
-        <div class="modal-footer">
+        <div class="modal-footer" id="modal-project-footer">
           <a
             id="modal-project-github"
             href="https://github.com/Seifkassab20"
@@ -1450,7 +1866,8 @@
           title: "Financial Planner & Behavioral Analytics",
           subtitle: "Intelligent multi-agent personal finance ecosystem.",
           category: "agentic",
-          categoryName: "Agentic AI & LLMs",
+          categoryName: "Agentic AI",
+          categoryIcon: "fa-solid fa-robot",
           date: "2025 - 2026",
           icon: "fa-solid fa-wallet",
           tags: ["Django Ninja", "PostgreSQL", "LangGraph", "LLMs"],
@@ -1461,7 +1878,11 @@
             "Implemented LangGraph to compile and run complex dynamic state machines governing agent routing and memory persistence.",
             "Integrated predictive overspending alerts, providing real-time adaptive feedback based on historically-modelled user paths.",
           ],
-          githubUrl: "https://github.com/Seifkassab20",
+          githubUrl: "https://github.com/Apo-Eclipse/Grad",
+          links: [
+            { label: "Backend Repository", url: "https://github.com/Apo-Eclipse/Grad" },
+            { label: "Frontend Repository", url: "https://github.com/karim-raouf/FGaiB-Frontend" },
+          ],
         },
         {
           id: 2,
@@ -1469,7 +1890,8 @@
           subtitle:
             "Multi-agent dynamic travel itinerary and proposal generator.",
           category: "agentic",
-          categoryName: "Agentic AI & LLMs",
+          categoryName: "Agentic AI",
+          categoryIcon: "fa-solid fa-robot",
           date: "2026",
           icon: "fa-solid fa-map-location-dot",
           tags: ["FastAPI", "React", "Multi-Agent", "LLMs"],
@@ -1487,8 +1909,9 @@
           title: "LOMIXA Healthcare Platform",
           subtitle:
             "Full-stack healthcare engagement & medical sales platform.",
-          category: "core",
-          categoryName: "Core Engineering",
+          category: "fullstack",
+          categoryName: "Full Stack",
+          categoryIcon: "fa-solid fa-code",
           date: "2026",
           icon: "fa-solid fa-hospital-user",
           tags: ["Full-Stack", "React", "Cloud", "Payment Gateways", "Dashboards"],
@@ -1499,15 +1922,16 @@
             "Implemented appointment scheduling, visit management, multi-level approval workflows, and subscription bundle management.",
             "Integrated real-time communication, automated email verification systems, push notifications, and payment gateway infrastructure.",
           ],
-          githubUrl: "https://github.com/Seifkassab20",
+          githubUrl: "https://github.com/Seifkassab20/Lomixa",
         },
         {
           id: 4,
           title: "Spatiotemporal Cloud Traffic Analytics & Forecasting",
           subtitle:
             "Cloud network traffic spatiotemporal modeling and anomaly forecasting.",
-          category: "core",
-          categoryName: "Core Engineering",
+          category: "datascience",
+          categoryName: "Data Science",
+          categoryIcon: "fa-solid fa-chart-line",
           date: "2024",
           icon: "fa-solid fa-cloud-bolt",
           tags: ["Python", "Pandas", "Scikit-Learn", "PCA", "Isolation Forest", "Random Forest"],
@@ -1518,14 +1942,15 @@
             "Applied Isolation Forest to detect anomalous network usage patterns and KMeans clustering to identify geographic regions with similar traffic behavior.",
             "Trained and evaluated Random Forest and KNN regression models to forecast daily cloud traffic, achieving up to 97% R² on the best model.",
           ],
-          githubUrl: "https://github.com/Seifkassab20",
+          githubUrl: "https://github.com/Seifkassab20/Spatiotemporal-Cloud-Web-Services-Analytics-Anomaly-Detection",
         },
         {
           id: 5,
           title: "Carotid Plaque Segmentation & Vulnerability",
           subtitle: "Automated CNN segmentation to predict stroke risks.",
           category: "cv",
-          categoryName: "Computer Vision & Medical Imaging",
+          categoryName: "CV",
+          categoryIcon: "fa-solid fa-eye",
           date: "2026",
           icon: "fa-solid fa-heart-pulse",
           tags: ["PyTorch", "OpenCV", "NumPy", "CNNs"],
@@ -1543,7 +1968,8 @@
           title: "Teeth Classification System",
           subtitle: "High-accuracy clinical dentistry classification model.",
           category: "cv",
-          categoryName: "Computer Vision & Medical Imaging",
+          categoryName: "CV",
+          categoryIcon: "fa-solid fa-eye",
           date: "2026",
           icon: "fa-solid fa-tooth",
           tags: ["Cellula Intern", "PyTorch", "Deep Learning"],
@@ -1561,7 +1987,8 @@
           title: "Water Body Segmentation Pipeline",
           subtitle: "Multispectral and optical image analysis pipeline.",
           category: "cv",
-          categoryName: "Computer Vision & Medical Imaging",
+          categoryName: "CV",
+          categoryIcon: "fa-solid fa-eye",
           date: "2026",
           icon: "fa-solid fa-droplet",
           tags: ["Cellula Intern", "OpenCV", "Segmentation"],
@@ -1579,7 +2006,8 @@
           title: "Real-Time Shoplifting Detection Pipeline",
           subtitle: "Video security action detection pipeline.",
           category: "cv",
-          categoryName: "Computer Vision & Medical Imaging",
+          categoryName: "CV",
+          categoryIcon: "fa-solid fa-eye",
           date: "2026",
           icon: "fa-solid fa-video",
           tags: ["Cellula Intern", "TensorFlow", "Action Classification"],
@@ -1598,7 +2026,8 @@
           subtitle:
             "Deep learning color and clarity restoration in aquatic captures.",
           category: "cv",
-          categoryName: "Computer Vision & Medical Imaging",
+          categoryName: "CV",
+          categoryIcon: "fa-solid fa-eye",
           date: "2025",
           icon: "fa-solid fa-water",
           tags: ["TensorFlow", "NumPy", "Image Processing"],
@@ -1616,7 +2045,8 @@
           title: "Arabic Dialect Classification",
           subtitle: "NLP classification across regional Arabic dialects.",
           category: "nlp",
-          categoryName: "NLP & Recommendation",
+          categoryName: "NLP",
+          categoryIcon: "fa-solid fa-comments",
           date: "2025",
           icon: "fa-solid fa-language",
           tags: ["Transformers", "Scikit-Learn", "Pandas"],
@@ -1634,7 +2064,8 @@
           title: "Hieroglyphics Translation to English",
           subtitle: "BART-powered ancient Egyptian glyph decoding pipeline.",
           category: "nlp",
-          categoryName: "NLP & Recommendation",
+          categoryName: "NLP",
+          categoryIcon: "fa-solid fa-comments",
           date: "2026",
           icon: "fa-solid fa-scroll",
           tags: ["BART", "NLP", "PyTorch", "Data Collection"],
@@ -1651,8 +2082,9 @@
           id: 12,
           title: "Collaborative Movie Recommendation Engine",
           subtitle: "User preferences similarity recommendation system.",
-          category: "nlp",
-          categoryName: "NLP & Recommendation",
+          category: "datascience",
+          categoryName: "Data Science",
+          categoryIcon: "fa-solid fa-chart-line",
           date: "2024",
           icon: "fa-solid fa-film",
           tags: ["Python", "Scikit-Learn", "Pandas"],
@@ -1666,29 +2098,12 @@
           githubUrl: "https://github.com/Seifkassab20/Personalized-Content-Recommender-and-Generator",
         },
         {
-          id: 13,
-          title: "Text Encryption via Hill Cipher",
-          subtitle: "Mathematical matrix text encoding system.",
-          category: "core",
-          categoryName: "Core Engineering",
-          date: "2023",
-          icon: "fa-solid fa-key",
-          tags: ["Python", "Cryptography", "Matrices"],
-          description:
-            "Implemented a cryptographic encoder utilizing matrix multiplications to encrypt text packages.",
-          highlights: [
-            "Constructed modular matrix inversion algorithms to support decipher routines.",
-            "Implemented alphanumeric character encoding grids.",
-            "Analyzed cipher resilience against frequency analysis attacks.",
-          ],
-          githubUrl: "https://github.com/Seifkassab20",
-        },
-        {
           id: 14,
           title: "Object-Oriented Airport System",
           subtitle: "Scalable terminal and schedule simulation.",
-          category: "core",
-          categoryName: "Core Engineering",
+          category: "fullstack",
+          categoryName: "Full Stack",
+          categoryIcon: "fa-solid fa-code",
           date: "2022",
           icon: "fa-solid fa-plane-arrival",
           tags: ["C++", "OOP", "Data Structures"],
@@ -1757,7 +2172,9 @@
           card.setAttribute("data-id", p.id);
           card.innerHTML = `
           <div class="project-card-header">
-            <div class="project-icon-box"><i class="${p.icon}"></i></div>
+            <span class="category-pill ${p.category}">
+              <i class="${p.categoryIcon || 'fa-solid fa-cube'}"></i> ${p.categoryName}
+            </span>
             <span class="project-date">${p.date}</span>
           </div>
           <div class="project-card-body">
@@ -1802,9 +2219,17 @@
           .map((t) => `<span class="skill-badge">${t}</span>`)
           .join("");
 
-        document
-          .getElementById("modal-project-github")
-          .setAttribute("href", p.githubUrl || "https://github.com/Seifkassab20");
+        const footerContainer = document.getElementById("modal-project-footer");
+        if (p.links && p.links.length > 0) {
+          footerContainer.innerHTML = p.links
+            .map(
+              (l) =>
+                `<a href="${l.url}" target="_blank" class="btn btn-secondary"><i class="fab fa-github"></i> ${l.label}</a>`
+            )
+            .join("");
+        } else {
+          footerContainer.innerHTML = `<a id="modal-project-github" href="${p.githubUrl || 'https://github.com/Seifkassab20'}" target="_blank" class="btn btn-secondary"><i class="fab fa-github"></i> Source Code</a>`;
+        }
 
         modalContainer.classList.add("active");
         document.body.style.overflow = "hidden";

@@ -69,9 +69,10 @@
 
 ### 🤖 Agentic AI & LLMs
 
-#### 💳 Financial Planner & Behavioral Analytics Multi-Agent
+#### 💳 [Financial Planner & Behavioral Analytics Multi-Agent](https://github.com/Apo-Eclipse/Grad)
 *Scalable multi-agent ecosystem transforming personal financial management.*
 * **Tech Stack:** Django Ninja, PostgreSQL, LangGraph, React, LLMs
+* **Repositories:** [Backend Repo](https://github.com/Apo-Eclipse/Grad) | [Frontend Repo](https://github.com/karim-raouf/FGaiB-Frontend)
 * Orchestrated specialized AI agents for automated budgeting, behavioral spend analysis, and transactional audits.
 * Coordinated agent execution dynamically via a graph-based state-machine architecture, implementing proactive overspending predictions.
 
@@ -84,12 +85,12 @@
 
 ### 💻 Full-Stack & Core Systems
 
-#### 🏥 LOMIXA Healthcare Platform
+#### 🏥 [LOMIXA Healthcare Platform](https://github.com/Seifkassab20/Lomixa)
 *Comprehensive Healthcare Engagement & Medical Sales Management Platform.*
 * **Tech Stack:** React, Python/Node, PostgreSQL, Cloud Infrastructure, Payment Gateways
 * Built multi-role enterprise platform linking pharmaceutical companies, doctors, hospitals, clinics, and medical reps with scheduling, visit management, dashboards, and live communication.
 
-#### ☁️ Spatiotemporal Cloud Traffic Analytics & Forecasting
+#### ☁️ [Spatiotemporal Cloud Traffic Analytics & Forecasting](https://github.com/Seifkassab20/Spatiotemporal-Cloud-Web-Services-Analytics-Anomaly-Detection)
 *AWS & Google Cloud network traffic spatiotemporal modeling and anomaly forecasting pipeline.*
 * **Tech Stack:** Python, Pandas, Scikit-learn, PCA, Isolation Forest, Random Forest, KNN
 * Built an end-to-end spatiotemporal analytics pipeline across French cities using PCA, Isolation Forest anomaly detection, KMeans clustering, and regression models achieving up to **97% R²**.
